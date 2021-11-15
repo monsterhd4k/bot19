@@ -108,7 +108,7 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Good Morning🌄"
+    res = "Good Morning"
   }
   if (time > 10) {
     res = "good afternoon"
